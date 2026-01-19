@@ -1,0 +1,34 @@
+{
+  "name": "create-abp-react",
+  "version": "1.0.0",
+  "description": "Create a new ABP React application",
+  "type": "module",
+  "bin": {
+    "create-abp-react": "./bin/create-abp-react.js"
+  },
+  "main": "./bin/create-abp-react.js",
+  "files": [
+    "bin",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "abp",
+    "react",
+    "scaffold",
+    "template",
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "execa": "^8.0.1",
+    "fs-extra": "^11.2.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
